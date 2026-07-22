@@ -42,6 +42,13 @@ body{
 
 }
 
+.logo img{
+
+    width: 120px;
+
+    height: auto;
+}
+
 .search{
 
     width:40%;

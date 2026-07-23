@@ -18,7 +18,7 @@ body{
 
     height:80px;
 
-    background:white;
+    background:rgb(0, 0, 0);
 
     display:flex;
 
@@ -33,40 +33,55 @@ body{
 }
 
 .logo h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color:white;
+    margin: 0;
 
-    font-size:30px;
-
-    font-weight:700;
-
-    cursor:pointer;
-
+    letter-spacing: 2px;
 }
 
-.logo {
-
+.logo{
     display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    color:white;
+    width:260px;
+}
 
-    align-items: center;
+.logo:visited{
+    color:white;
+}
 
-    gap: 10px;
+.logo:hover{
+    color:white;
+}
+
+.logo:active{
+    color:white;
 }
 
 .logo img{
 
-    width: 100px;
+    width:auto;
 
-    height: auto;
+    height:80px;
+
+    display:block;
+
 }
 
 .search{
-
-    width:40%;
-
+    flex:1;
+    display:flex;
+    justify-content:center;
 }
 
 .search input{
 
     width:100%;
+    max-width:800px;
 
     padding:12px 18px;
 
@@ -81,13 +96,14 @@ body{
 }
 
 .cart{
-
+    width:260px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
     position:relative;
-
     font-size:28px;
-
     cursor:pointer;
-
+    color:white;
 }
 
 .cart span{
@@ -98,7 +114,7 @@ body{
 
     right:-12px;
 
-    background:black;
+    background:rgb(160, 2, 2);
 
     color:white;
 
